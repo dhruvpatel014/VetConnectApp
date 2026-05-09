@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "digestive",
+      "label": "Digestive",
+      "emoji": "🫀",
+      "color": "#F59E0B",
+      "symptoms": ["Loss of appetite", "Diarrhoea", "Bloating / Tympany", "Constipation", "Vomiting", "Abdominal pain / Colic", "Indigestion", "Weight loss", "Blood in stool", "Worm infestation"]
+    },
+    {
+      "id": "respiratory",
+      "label": "Respiratory",
+      "emoji": "🫁",
+      "color": "#3B82F6",
+      "symptoms": ["Cough", "Nasal discharge", "Difficulty breathing", "Pneumonia", "Wheezing", "Fever with respiratory signs"]
+    },
+    {
+      "id": "reproductive",
+      "label": "Reproductive",
+      "emoji": "🧬",
+      "color": "#EC4899",
+      "symptoms": ["Retained placenta", "Repeat breeding", "Anoestrus", "Ovarian cyst", "Pyometra", "Mastitis", "Clots in milk", "Swollen udder", "Reduced milk yield", "Milk fever"]
+    },
+    {
+      "id": "musculoskeletal",
+      "label": "Musculoskeletal",
+      "emoji": "🦴",
+      "color": "#8B5CF6",
+      "symptoms": ["Lameness", "Joint swelling", "Foot rot", "Muscle stiffness", "Weakness", "Injury / Trauma"]
+    },
+    {
+      "id": "systemic",
+      "label": "Systemic / General",
+      "emoji": "🌡️",
+      "color": "#EF4444",
+      "symptoms": ["Fever", "Lethargy", "Dehydration", "Anaemia", "Jaundice", "Oedema", "Nervous signs", "Seizures", "Septicaemia", "Shock"]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "medicines": [
+    {
+      "id": "ALBEN-001",
+      "name": "Albendazole 10% Suspension",
+      "category": "Anthelmintic",
+      "species": ["Cow", "Buffalo", "Goat", "Sheep"],
+      "symptoms": ["Worm infestation", "Weight loss", "Bottle jaw", "Diarrhoea", "Anaemia", "Poor growth"],
+      "defaultDosage": "7.5 mg/kg BW",
+      "defaultFrequency": "Single oral dose",
+      "defaultDuration": "Single dose; repeat in 4 weeks",
+      "route": "Oral",
+      "contraindications": ["First trimester pregnancy"]
+    },
+    {
+      "id": "PENI-001",
+      "name": "Procaine Penicillin G",
+      "category": "Antibiotic",
+      "species": ["Cow", "Buffalo", "Goat", "Sheep"],
+      "symptoms": ["Wound infection", "Abscess", "Blackleg", "Anthrax (post-exposure)", "Mastitis", "Foot rot"],
+      "defaultDosage": "10,000–20,000 IU/kg BW",
+      "defaultFrequency": "Once daily",
+      "defaultDuration": "5 days",
+      "route": "IM",
+      "contraindications": ["Known penicillin allergy"]
+    },
+    {
+      "id": "METRONIDAZOLE-001",
+      "name": "Metronidazole Injection",
+      "category": "Antiprotozoal / Antibiotic",
+      "species": ["Cow", "Buffalo", "Goat", "Sheep"],
+      "symptoms": ["Diarrhoea", "Trichomoniasis", "Anaerobic infections", "Balantidiasis"],
+      "defaultDosage": "15 mg/kg BW",
+      "defaultFrequency": "Twice daily",
+      "defaultDuration": "5 days",
+      "route": "IV (slow)",
+      "contraindications": []
+    },
+    {
+      "id": "GLUCOSE-001",
+      "name": "Dextrose 5% IV Drip",
+      "category": "Fluid / Electrolyte",
+      "species": ["Cow", "Buffalo", "Goat", "Sheep"],
+      "symptoms": ["Ketosis", "Dehydration", "Hypoglycaemia", "Post-partum weakness", "Downer cow"],
+      "defaultDosage": "500 ml–2L slow IV",
+      "defaultFrequency": "Once or twice daily",
+      "defaultDuration": "2–3 days",
+      "route": "IV (slow drip)",
+      "contraindications": []
+    },
+    {
+      "id": "FLU-001",
+      "name": "Flunixin Meglumine",
+      "category": "NSAID / Anti-inflammatory",
+      "species": ["Cow", "Buffalo"],
+      "symptoms": ["Colic", "Endotoxaemia", "Fever", "Mastitis", "Pain"],
+      "defaultDosage": "1.1–2.2 mg/kg BW",
+      "defaultFrequency": "Once daily",
+      "defaultDuration": "3–5 days",
+      "route": "IV/IM",
+      "contraindications": []
+    },
+    {
+      "id": "TRYPAN-001",
+      "name": "Diminazene Aceturate (Berenil)",
+      "category": "Antiprotozoal",
+      "species": ["Cow", "Buffalo", "Goat", "Sheep"],
+      "symptoms": ["Trypanosomiasis", "Babesiosis", "Theileriosis", "High fever", "Anaemia", "Jaundice", "Oedema"],
+      "defaultDosage": "3.5–7 mg/kg BW",
+      "defaultFrequency": "Single dose; repeat in 24h if needed",
+      "defaultDuration": "1–2 doses",
+      "route": "Deep IM",
+      "contraindications": []
+    },
+    {
+      "id": "CLOPROSTENOL-001",
+      "name": "Cloprostenol (synthetic PGF2α)",
+      "category": "Reproductive Hormone",
+      "species": ["Cow", "Buffalo"],
+      "symptoms": ["Anoestrus", "Ovarian cyst", "Pyometra", "Synchronisation protocol"],
+      "defaultDosage": "500 mcg",
+      "defaultFrequency": "Single IM injection",
+      "defaultDuration": "Single dose",
+      "route": "IM",
+      "contraindications": ["Pregnant animal"]
+    },
+    {
+      "id": "GNRH-001",
+      "name": "GnRH (Gonadorelin)",
+      "category": "Reproductive Hormone",
+      "species": ["Cow", "Buffalo"],
+      "symptoms": ["Ovarian cyst", "Anovulation", "IVF synchronisation protocol", "Repeat breeding"],
+      "defaultDosage": "100 mcg",
+      "defaultFrequency": "Single IM injection",
+      "defaultDuration": "Single dose",
+      "route": "IM",
+      "contraindications": []
+    }
+  ]
+}
